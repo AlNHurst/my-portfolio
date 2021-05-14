@@ -4,18 +4,19 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 8px;
+    padding: 16px 8px;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     max-width: 80%;
     margin: auto;
+    background-color: rgb(223, 226, 230);
 }
 
 h1 {
     text-align: left;
-    padding: 8px 8px;
+    padding: 16px 16px;
     color: white;
     border: 5px dashed;
     font-style: italic;
@@ -23,8 +24,7 @@ h1 {
  nav {
      display: flex;
      flex-direction: row;
-     flex-wrap: wrap;
-     
+     flex-wrap: wrap;   
  }
 
  nav a {
@@ -39,3 +39,55 @@ h1 {
      color: rgb(86, 127, 153);
      background-color: white;
  }
+
+#float-left {
+    float: left;
+    padding: 8px;
+}
+.section-about {
+    min-height: 300px;
+}
+.section-about h2 {
+    border-bottom: 4px solid rgb(86, 127, 153);
+    color: rgb(86, 127, 153);
+}
+
+.section-about p {
+    font-size: 20px;
+}
+.section-mywork p {
+    box-sizing: border-box;
+    display: flex;
+    justify-align: center;
+}
+
+.section-mywork h2 {
+    border-bottom: 4px solid rgb(86, 127, 153);
+    color: rgb(86, 127, 153);
+}
+
+.section-contact h2 {
+    border-bottom: 4px solid rgb(86, 127, 153);
+    color: rgb(86, 127, 153);
+}
+
+div ul {
+    list-style-type: none;
+}
+
+div ul li {
+    display: inline-block;
+    float: right;
+}
+
+div ul li a {
+    text-decoration: none;
+    padding: 32px;
+    color:rgb(86, 127, 153);
+    font-size: 20px;
+}
+
+div ul li a:hover {
+    text-decoration: underline;
+}
+
