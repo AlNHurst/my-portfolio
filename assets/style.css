@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 16px 8px;
+    padding: 16px 32px;
 }
 
 body {
@@ -56,19 +56,30 @@ h1 {
     font-size: 20px;
 }
 
+.section-mywork h2 {
+    border-bottom: 4px solid rgb(86, 127, 153);
+    color: rgb(86, 127, 153);
+}
+
 .first-work {
     height: 400px;
     width: 800px;
+    float: left;
+    box-sizing: border-box;
+    padding: 16px 16px;
 }
 
 .placeholder {
     height: 200px;
     width: 400px;
+    float: right;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
-.section-mywork h2 {
-    border-bottom: 4px solid rgb(86, 127, 153);
-    color: rgb(86, 127, 153);
+.first-work:hover, .placeholder:hover {
+    cursor: pointer;
+    border: 5px dotted rgb(86, 127, 153);
 }
 
 .section-contact h2 {
