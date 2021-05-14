@@ -55,10 +55,15 @@ h1 {
 .section-about p {
     font-size: 20px;
 }
-.section-mywork p {
-    box-sizing: border-box;
-    display: flex;
-    justify-align: center;
+
+.first-work {
+    height: 400px;
+    width: 800px;
+}
+
+.placeholder {
+    height: 200px;
+    width: 400px;
 }
 
 .section-mywork h2 {
