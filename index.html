@@ -7,33 +7,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+    <script src="https://kit.fontawesome.com/d83ac923b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/style.css" />
 
 </head>
 
 <body>
-    <div class="bg-img">
-    </div>
 
-    <nav class="navbar is-fixed-top is-white">
-        <div class="navbar-brand">
-            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div class="navbar-menu" id="navMenu">
-            <div class="navbar-end">
-                <a href="#" class="navbar-item">About Me</a>
-                <a href="#" class="navbar-item">My Work</a>
-                <a href="#" class="navbar-item">Resume</a>
-                <a href="#" class="navbar-item">Connect</a>
+    <nav class="navbar is-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-burger" data-target="navbarMenuHeroB">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbar" class="navbar-menu has-text-white">
+                <div class="navbar-center">
+                    <a class="navbar-item is-size-6" href="#about-me">
+                        About Me
+                    </a>
+                    <a class="navbar-item is-size-6" href="#my-projects">
+                        My Projects
+                    </a>
+                    <a class="navbar-item is-size-6" href="#connect">
+                        Connect
+                    </a>
+                    <a class="navbar-item is-size-6" href="./images/alexandra-hurst-resume.pdf">
+                        Resume
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
+    <main class="main">
+        <section class="section">
+            <div class="container has-border has-text-centered">
+                <div class="row py-6 my-5 has-border">
+                    <div>
+                        <p id="about-me" class="title is-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Non beatae dolorum
+                            ratione explicabo exercitationem ab provident iusto ipsa consectetur sunt, numquam quidem!
+                            Vitae
+                            excepturi iste odio, ducimus rerum iusto harum! </p>
+                    </div>
+                </div>
+                <div class="columns is-multiline py-6">
+                    <div id="my-projects" class="column is-8">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="./images/living-in-motion.jpg"
+                                        alt="Photo of Alexandra's API Application - Living In Motion">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4 is-vcentered">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title is-centered">
+                                    Living In Motion API Application
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dicta, doloribus
+                                        inventore in, eos iste minima placeat dignissimos officia qui voluptatibus fuga
+                                        modi
+                                        eveniet ipsum. Consequuntur minima voluptatibus enim mollitia!
+                                    </p>
+                                    <span>Deployed
+                                        website: <span class="icon"><i class="fa fa-dumbbell"
+                                                aria-current="hidden"></i></span>
+                                        <a rel="noopener noreferrer" target="_blank"
+                                            href="https://jessgreene9.github.io/living-in-motion/">Living In Motion
+                                        </a>
+                                        <br>
+                                        <span class="icon">
+                                            <i class="fa fa-github" aria-current="hidden">
 
+                                            </i>
+                                        </span>
+                                        <a rel="noopener noreferrer" target="_blank"
+                                            href=" https://github.com/jessgreene9/living-in-motion">GitHub
+                                            Repository
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container has-border has-text-centered">
+                <div class="columns is-multiline py-6">
+                    <div class="column is-4 is-vcentered">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title is-centered">
+                                    Weather API Dashboard
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dicta, doloribus
+                                        inventore in, eos iste minima placeat dignissimos officia qui voluptatibus fuga
+                                        modi
+                                        eveniet ipsum. Consequuntur minima voluptatibus enim mollitia!
+                                    </p>
+                                    <span>Deployed
+                                        website: <span class="icon"><i class="fas fa-cloud-sun"
+                                                aria-current="hidden"></i></span><a rel="noopener noreferrer"
+                                            target="_blank" href="https://alnhurst.github.io/weather-app/">Weather
+                                            Dashboard</a>
+                                        <br> <span class="icon"><i class="fa fa-github"
+                                                aria-current="hidden"></i></span><a rel="noopener noreferrer"
+                                            target="_blank" href="https://github.com/AlNHurst/weather-app">GitHub
+                                            Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-8">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="./images/weather-app.JPG"
+                                        alt="Photo of Alexandra's API Application - Living In Motion">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer-menu">
+            <li>
+                <span>Email<a href="mailto:ahurst10@uncc.edu">: AHurst10@uncc.edu</a></span>
+            </li>
+            <li>
+                <span>Phone Number<a href="tel:704-607-6769">: 704-607-6769</a></span>
+            </li>
+            <li id="connect">
+                <span class="icon"><i class="fa fa-github" aria-hidden="true"></i><a rel="noopener noreferrer"
+                        target="_blank" href="https://github.com/AlNHurst"></span>Github</a>
+            </li>
+            <li>
+                <span class="icon"><i class="fab fa-linkedin-in"></i><a rel="noopener noreferrer" target="_blank"
+                        href="https://www.linkedin.com/in/alexandra-hurst-28b185130"></span>LinkedIn</a>
+            </li>
+            <li>
+                <a rel="noopener noreferrer" target="_blank" href="./images/alexandra-hurst-resume.pdf">Alexandra Hurst's Resume</a>
+            </li>
+        </ul>
+        <div id="footer-copyright" class="row has-text-centered mt-6 pt-5">
+            &copy; 2021 Alexandra Hurst
+        </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
 

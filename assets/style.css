@@ -1,18 +1,74 @@
+body {
+    background-color: #E2D7D7;
+    color: #768A95;
+}
+
 .navbar {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
-    border-bottom: 2px solid #f5f6f7;
-    border-left: 2px solid #f5f6f7;
-    border-right: 2px solid #f5f6f7;
-    margin-top: 32px;
+    border-radius: 10px;
+    margin-top: 8px;
+    background-color: #2a3b4e;
+    
 }
 
-.bg-img { 
-    background-image: url(C:\Users\Alexandra\Homework\my-portfolio\images\background-image\18410.jpg) ;
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    background-color: #999;
+.navbar-link,.navbar-item{
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    color: white;
+  }
+
+  .is-vcentered {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .has-border  {
+    border-bottom: 1px solid #eef0f3ef;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #B98077;
+}
+
+  .footer {
+    background-color: #2a3b4e;
+}
+
+  .footer-menu {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 
 }
+
+a:hover {
+    color: #83909d;
+}
+
+#connect {
+    display: flex;
+
+}
+@media screen and (max-device-width: 768px), (min-device-width: 481px), (min-device-width: 320px){
+    .card-image {
+    width: 100%;
+}}
+
+@media only screen and (min-device-width: 1024px){
+  .navbar-center {
+    display:flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+}}
