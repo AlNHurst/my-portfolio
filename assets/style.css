@@ -6,10 +6,9 @@ body {
 .navbar {
     max-width: 90%;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 8px;
     background-color: #2a3b4e;
-    
 }
 
 .navbar-link,.navbar-item{
@@ -22,31 +21,72 @@ body {
     color: white;
   }
 
-  .is-vcentered {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+  h2 {
+    font-size: 32px;
+    color: #2a3b4e;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: bold;
   }
 
-  .has-border  {
-    border-bottom: 1px solid #eef0f3ef;
+  .about-card {
+    border-radius: 5px;
+    background-color: #E2D7D7;
   }
+
+  #about-me {
+    font-size: 18px;
+    line-height: 30px;
+    color: #2a3b4e;
+  }
+
+  .card-image, .about-card {
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
   
-  a {
+.grow:hover { 
+  transform: scale(1.05); 
+}
+
+.is-on-right {
+  transform: translateX(-40px);
+}
+
+.is-on-left {
+  transform: translateX(40px);
+}
+
+.is-vcentered {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  z-index: 1;
+}
+
+.has-border  {
+  border-bottom: 1px solid #eef0f3ef;
+}
+  
+a {
     cursor: pointer;
     text-decoration: none;
     color: #B98077;
 }
 
-  .footer {
-    background-color: #2a3b4e;
+.footer {
+   background-color: #2a3b4e;
 }
 
-  .footer-menu {
-    margin-bottom: 32px;
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
+.footer-menu {
+   margin-bottom: 32px;
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
 
 }
 
