@@ -11,3 +11,17 @@ My portfolio shows recent projects I've designed and developed in the Coding Pro
 ## Website Image
 
 ![My Portfolio Image](https://github.com/AlNHurst/my-portfolio/blob/main/demo/my-portfolio.gif)
+
+## Tech/Framework
+
+* HTML
+* JavaScript
+* Bulma
+* Font-Awesome Icons
+
+## Links
+* Deployed Website
+https://alnhurst.github.io/my-portfolio/
+
+* GitHub Repository Page
+https://github.com/AlNHurst/my-portfolio
