@@ -1,31 +1,13 @@
 # My portfolio
-## Description
-My portfolio project is a view of my education education background and coding projects. 
+My portfolio shows recent projects I've designed and developed in the Coding Program at UNC Charlotte. 
 
-## User Story
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-## Acceptance Criteria
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+## Features
+* "Sticky" navbar that stays at the top of the viewport. The clickable menu items in the navbar make it easy for the user to quickly navigate my portfolio. 
+* The About Me section provides my educational background and career goals.
+* The website is mobile responsive which was achieved with Bulma styling.
+* Font-Awesome icons are used to add personality to the website. 
+* The footer contains contact information, links to my GitHub and LinkedIn profiles and a pdf version of my resume.  
 
 ## Website Image
 
-![My Portfolio Image](./images/websiteImage.png)
+![My Portfolio Image]()
