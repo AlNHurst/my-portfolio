@@ -15,6 +15,7 @@ My portfolio shows recent projects I've designed and developed in the Coding Pro
 ## Tech/Framework
 
 * HTML
+* CSS
 * JavaScript
 * Bulma
 * Font-Awesome Icons
