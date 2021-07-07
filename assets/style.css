@@ -1,5 +1,5 @@
 body {
-    background-color: #E2D7D7;
+    background-color: hsl(9, 34%, 69%);
     color: #768A95;
 }
 
@@ -32,7 +32,7 @@ body {
 
   .about-card {
     border-radius: 5px;
-    background-color: #E2D7D7;
+    background-color: #fff;
   }
 
   #about-me {
